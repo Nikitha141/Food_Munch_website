@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    padding-top: 8px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 24px;
+}
+
+.site-header {
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.food-munch-img {
+    width: 70px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    padding: 8px 10px;
+    font-size: 15px;
+    color: #323f4b;
+
+}
+
+.nav-links {
+    list-style: none;
+    width: 100%;
+    margin: 12px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+@media(min-width:768px) {
+    .nav-links {
+        width: auto;
+        margin-top: 0;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+}
+
+.banner {
+    height: 100vh;
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+}
+
+.bannner h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 550;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 12px 0 24px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.custom-button {
+    background-color: #d0b200;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-outline-button {
+    border: 1px solid #d0b200;
+    background: transparent;
+    color: #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    height: 50px;
+    width: 130px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.why-choose-us {
+    background-color: #f9fbfe;
+}
+
+.wcu-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wcu-section h1 {
+    font-size: 40px;
+
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*     flex-wrap:wrap; */
+    gap: 24px;
+
+}
+
+.feature-card {
+    text-align: center;
+    border: 1px solid #e5eaf4;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.feature-card>img {
+    margin: auto;
+}
+
+.container {
+    padding: 40px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px
+}
+
+.menu-card {
+    box-shadow: 5px 5px 10px #00000026;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.menu-card h1 {
+    font-size: 24px;
+    color: #343f4b;
+    margin-top: 10px;
+}
+
+.menu-card a {
+    color: #d0b200;
+    font-weight: 500;
+
+}
+
+.menu-header h1 {
+    font-size: 20px;
+
+}
+
+.container-two-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-block img {
+    width: 280px;
+}
+
+@media(min-width:768px) {
+    .container-two-column {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .two-column.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.content-block {
+    padding: 30px;
+}
+
+.payment-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.payment-icons img {
+    width: 60px;
+    height: 70px;
+    margin: 20px;
+}
+
+.follow-us {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+
+}
+
+.social-icons span {
+    height: 80px;
+    width: 80px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 35px;
+    width: 35px;
+}
+
+.site-footer {
+    background-color: #0d2436;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color:white; */
+}
+
+.footer-content p,
+.footer-content address {
+    color: #959ead;
+    font-size: 24px;
+}
+
+.footer-content address {
+    font-style: normal;
+}
+
+.food-munch-logo {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
